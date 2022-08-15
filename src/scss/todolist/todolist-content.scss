@@ -1,0 +1,21 @@
+.todolist-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    input {
+        margin: 16px;
+   }
+}
+
+.row{
+    span {
+      font-size: 20px;  
+      font-family: cursive;
+      cursor: pointer;
+    }
+}
+
+input:checked + .input_text {
+  text-decoration: line-through;
+  color: gray;
+}
