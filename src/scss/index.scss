@@ -1,1 +1,7 @@
-@import './header.scss'
+@import './reset.scss';
+@import './general/header.scss';
+@import './general/content-container.scss';
+@import './general/main-background.scss';
+@import './todolist/add-btn.scss';
+@import './todolist/todolist-content.scss';
+@import './auth/auth-content.scss';

@@ -1,0 +1,45 @@
+.auth-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+
+}
+
+.content-text {
+    margin: 30xp 0;
+    p {
+        font-size: 20px;
+        font-family: cursive;
+        margin: 30px 0 3px;
+    }
+}
+
+.input {
+    border: 2px solid rgba(128, 128, 128, 0.534);
+    border-radius: 15px;
+    width: 230px;
+    height: 40px;
+    padding: 10px;
+    font-family: cursive;
+    &:hover {
+        border: 2px solid rgb(128, 128, 128);
+    }
+    &:focus {
+        border: 5px solid rgba(78, 179, 234, 0.459);
+    }
+}
+
+.target {
+    text-align: center;
+    margin-top: 10px;
+    .target-text {
+        color: black;
+        font-size: 15px;
+        font-family: cursive;
+    }
+    &:hover {
+        text-decoration: underline;
+        
+    }
+}
