@@ -1,0 +1,1 @@
+export const validateByRegEx = (string: string, regEx: RegExp) => regEx.test(string);

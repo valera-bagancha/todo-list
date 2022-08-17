@@ -9,7 +9,7 @@
 .content-text {
     margin: 30xp 0;
     p {
-        font-size: 20px;
+        font-size: 17px;
         font-family: cursive;
         margin: 30px 0 3px;
     }
@@ -43,3 +43,23 @@
         
     }
 }
+
+.button-submit {
+    width: 230px;
+    height: 40px;
+    border-radius: 35px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: tomato;
+    color: white;
+    &:hover {
+        background-color: rgb(246, 77, 47);
+    }
+    }
+
+    .main-form__error{
+        margin-top: 5px;
+        color: red;
+        font-family: cursive;
+    }
